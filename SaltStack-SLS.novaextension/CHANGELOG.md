@@ -1,3 +1,6 @@
+## Version 0.1.3
+More readme updates
+
 ## Version 0.1.2
 Moved license outside of the extension package
 
