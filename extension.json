@@ -3,7 +3,7 @@
     "name": "SaltStack SLS",
     "organization": "James Hilton",
     "description": "Combined YAML & Jinja syntax highlighting for SaltStack sls files",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "categories": ["languages"],
     "bugs": "https://github.com/JamesH33/SaltStack-SLS.novaextension/issues",
     "repository": "https://github.com/JamesH33/SaltStack-SLS.novaextension"
