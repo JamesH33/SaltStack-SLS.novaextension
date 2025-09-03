@@ -21,3 +21,6 @@ The current highlighting from YAML is known not to work; not sure if I will add 
 - Aliases: `*bar`
 - Tags: `!tag`
 - Scalars: `|` or `>`
+
+## Attribution
+SaltStack and the SaltStack logo (contained here as extension.png) are both copyrighted by the [SaltStack Team](https://saltproject.io), used under the Apache 2.0 license. You may obtain a copy of the license at http://www.apache.org/licenses/LICENSE-2.0
