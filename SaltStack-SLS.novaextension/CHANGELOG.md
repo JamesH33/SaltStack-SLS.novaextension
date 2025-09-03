@@ -1,3 +1,6 @@
+## Version 1.1
+Vertical pipe after key name will also increase indentation now.
+
 ## Version 1.0
 Finally got the key highlighting to only include the first string before a colon, so I'll consider this a proper version 1!
 

@@ -21,7 +21,7 @@
   <!-- basic indent after “key:” lines -->
   <indentation>
     <increase>
-      <expression>.*:$</expression>
+      <expression>(.*:$)|(:\s\|$)</expression>
     </increase>
     <decrease>
       <expression></expression>
