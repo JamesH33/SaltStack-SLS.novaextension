@@ -1,3 +1,6 @@
+## Version 1.0
+Finally got the key highlighting to only include the first string before a colon, so I'll consider this a proper version 1!
+
 ## Version 0.1.3
 More readme updates
 

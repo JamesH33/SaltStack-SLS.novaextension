@@ -32,8 +32,9 @@
     <scope name="saltstacksls.comment">
       <expression>^\t*[#].*</expression>
     </scope>
-    <scope name="saltstacksls.identifier.key">
-      <expression>\t*[A-Za-z0-9_.-]+(?=\s*:)</expression>
+    <scope name="saltstacksls.key-value">
+      <expression>^\s*(?:-\s*)?([A-Za-z0-9\.-]*?):</expression>
+      <capture number="1" name="saltstacksls.identifier.key" />
     </scope>
     <scope name="saltstacksls.string.single">
       <expression>&apos;[^&apos;]*&apos;</expression>
