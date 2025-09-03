@@ -1,6 +1,6 @@
 **SaltStack SLS** provides syntax highlighting for SaltStack sls files.
 
-![Syntax Highlighting Example](https://github.com/JamesH33/SaltStack-SLS.novaextension/blob/main/example.png?raw=true)
+![Syntax Highlighting Example](https://github.com/JamesH33/saltstack-nova/blob/main/SaltStack-SLS.novaextension/example.png?raw=true)
 
 ## Syntax Highlighting
 This language extension combines the basics of YAML and Jinja syntax and enables highlighting. This allows your themes to properly highlight any SaltStack files that use both.
