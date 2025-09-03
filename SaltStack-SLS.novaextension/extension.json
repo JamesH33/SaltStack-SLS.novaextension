@@ -5,6 +5,7 @@
     "description": "Combined YAML & Jinja syntax highlighting for SaltStack sls files",
     "version": "0.1.3",
     "categories": ["languages"],
-    "bugs": "https://github.com/JamesH33/SaltStack-SLS.novaextension/issues",
-    "repository": "https://github.com/JamesH33/SaltStack-SLS.novaextension"
+    "bugs": "https://github.com/JamesH33/saltstack-nova/issues",
+    "repository": "https://github.com/JamesH33/saltstack-nova.novaextension",
+    "license": "GPL 3.0"
 }
