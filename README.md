@@ -1,0 +1,23 @@
+**SaltStack SLS** provides syntax highlighting for SaltStack sls files.
+
+![Syntax Highlighting Example](/Images/extension/example.png)
+
+## Syntax Highlighting
+This language extension combines the basics of YAML and Jinja syntax and enables highlighting. This allows your themes to properly highlight any SaltStack files that use both.
+
+This is a very barebones extension. It relies on the old regex syntax definitions instead of Tree-sitter, frankly because I have neither the time nor knowledge to set it up that way. This extension also currently does not do anything fancier than syntax highlighting and allowing the CMD+/ comment hotkey. 
+
+The current syntax highlighting that works:
+- key highlighting: `key: value`
+- string highlighting with both single and double quotes
+- Jinja expressions: `{{ jinja stuff }}`
+- Jinja statements: `{% other jinja stuff %}`
+- Booleans: `true/True`, `false/False`, `null/Null`
+- Comments: `# Comment`
+- Numbers
+
+The current highlighting from YAML is known not to work; not sure if I will add these in the future
+- Anchors: `&foo`
+- Aliases: `*bar`
+- Tags: `!tag`
+- Scalars: `|` or `>`

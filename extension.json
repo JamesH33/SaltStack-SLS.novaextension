@@ -1,0 +1,8 @@
+{
+    "identifier": "jameshilton.SaltStackSLS",
+    "name": "SaltStack SLS",
+    "organization": "James Hilton",
+    "description": "Combined YAML & Jinja syntax highlighting for SaltStack sls files",
+    "version": "0.1.0",
+    "categories": ["languages"]
+}

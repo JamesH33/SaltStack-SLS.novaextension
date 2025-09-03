@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="saltstacksls">
+  <meta>
+      <name>SaltStack SLS</name>
+      <type>structured</type>
+      <preferred-file-extension>sls</preferred-file-extension>
+  </meta>
+
+  <detectors>
+    <!-- Ensure .sls wins over built-in YAML -->
+    <extension priority="1.0">sls</extension>
+  </detectors>
+  
+  <!-- comments still drive the editor’s comment toggle -->
+  <comments>
+    <single>
+      <expression>#</expression>
+    </single>
+  </comments>
+  
+  <!-- basic indent after “key:” lines -->
+  <indentation>
+    <increase>
+      <expression>.*:$</expression>
+    </increase>
+    <decrease>
+      <expression></expression>
+    </decrease>
+  </indentation>
+  
+  <scopes>
+    <scope name="saltstacksls.comment">
+      <expression>^\t*[#].*</expression>
+    </scope>
+    <scope name="saltstacksls.identifier.key">
+      <expression>\t*[A-Za-z0-9_.-]+(?=\s*:)</expression>
+    </scope>
+    <scope name="saltstacksls.string.single">
+      <expression>&apos;[^&apos;]*&apos;</expression>
+    </scope>
+    <scope name="saltstacksls.string.double">
+      <expression>&quot;[^&quot;]*&quot;</expression>
+    </scope>
+    <scope name="saltstacksls.value.boolean">
+      <expression>true|false|null|True|False|Null</expression>
+    </scope>
+    <scope name="saltstacksls.jinja.identifier.variable">
+      <expression>\{\{[\s\S]+?\}\}</expression>
+    </scope>
+    <scope name="saltstacksls.jinja.identifier.function">
+      <expression>\{%[\s\S]+?%\}</expression>
+    </scope>
+    <scope name="saltstacksls.value.number">
+      <expression>\d+\.*\d*</expression>
+    </scope>
+
+  </scopes>
+</syntax>
